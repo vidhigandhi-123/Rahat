@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+.header-color{
+  background-image: url("https://cdn1.vectorstock.com/i/1000x1000/23/55/dark-blue-grunge-brick-wall-background-vector-22962355.jpg");
+  background-size: auto;
+  background-repeat: repeat ;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.landing-grid{
+  margin: auto;
+  background-image: url("https://cdn1.vectorstock.com/i/1000x1000/23/55/dark-blue-grunge-brick-wall-background-vector-22962355.jpg");
+  position: fixed;
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 6em;
 }
 
-.App-link {
-  color: #61dafb;
+ 
+
+.wrapper{
+  position:absolute;
+  top:40%;
+  left: 68%;
+  right: 80%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+    background-color: black;
+    opacity: .5;
+    width :50% ;
+    margin-right: auto;
+    border-radius: 10px ;
+    box-shadow: 10px 10px grey;  
+    
+  
+}
+.wrapper h2{
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+  font-size: 18px;
+  color:yellow;
+  font-weight: lighter; 
+    font-style: italic; 
+
+ 
+}
+.wrapper h3{
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+  font-size: 40x;
+  color: yellow;
+  font-weight: 900;
+  font-style: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+ 
+  bottom: 100%;
+  font-size: 50px;
+  margin: 0;
+  right: 50%;
+  text-align: left;
+  padding-top: 8em;
+  padding-left: 2em;
+
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.wrapper p{
+  color: #fff;
+  font-size: 18px;
+  margin: 0;
+  line-height: 35px;
 }
+.wrapper a{
+  background: crimson;
+  color: #fff;
+  text-decoration: none;
+  padding :10px 25px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 30x;
+}
+span:before{
+  content: "";
+  animation: animate infinite 8s;
+  color: #fff;
+
+}
+@keyframes animate{
+  0%{
+    content:"Awareness";
+  }
+  20%{
+    content:"Prevention";
+  }
+  40%{
+    content:"Action";
+  }
+  60%{
+    content:"Measures";
+  }
+  80%{
+    content:"Awareness";
+  }
+  100%{
+    content:"Prevention";
+  }
+ 
+}
+
+
+
+  
+
+  
+
